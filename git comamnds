@@ -1,0 +1,67 @@
+mkdir
+    2  mkdir gitdemo
+    3  ls
+    4  cd gitdemo
+    5  ls
+    6  ls -la
+    7  ls
+    8  git clone https://github.com/ORE0-16/GitDemoLinux.git
+    9  ls
+   10  cd GitDemoLinux/
+   11  ls
+   12  ls -la
+   13  vi sample.txt
+   14  cat sample.txt
+   15  git add sample.txt
+   16  git status
+   17  vi test.txt
+   18  git status
+   19  git add .
+   20  git statis
+   21  git status
+   22  git log
+   23  git commit -m "added two files"
+   24  git status
+   25  git log
+   26  vi sample.txt
+   27  git status
+   28  git add sample.txt
+   29  git status
+   30  git commit
+   31  git commit -m dated sample.txt
+   32  git status
+   33  git log
+   34  git status
+   35  cat sample.txt
+   36  vi sample.txt 
+   37  cat sample.tx
+   38  cat sample.txt 
+   39  git status
+   40  git add .
+   41  git statis
+   42  git status
+   43  git commit -m "upated samplefile"
+   44  git log
+   45  git log --oneline
+   46  git log
+   47  git log --oneline
+   48  git remote -v
+   49  git remote add link https://github.com/ORE0-16/GitDemoLinux.git
+   50  git remote -v
+   51  git push -u link
+   52  git status 
+   53  git label
+   54  vi sample.txt 
+   55  git add sample.txt 
+   56  git status
+   57  git commit .
+   58  git commit
+   59  git commit -m "new changes"
+   60  git push -u link
+   61  git push -u link  main
+   62  git push -u link  main -f
+   63  git pull
+   64  vi sample.txt
+   65  cat sample.txt 
+   66  git log
+   67  history
