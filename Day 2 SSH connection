@@ -16,3 +16,90 @@
   547  git add notes.md 
   548  git commit -m "added hypen at top"
   549  git push
+
+
+git tag  v1  = will rename the commit id to v1
+ git tag -d v1  =will delete the tag 
+ 
+ git reset  HEAD~2  =  to remove all the commit ids
+ git reset HEAD@{2}  = to regain all the removed commit ids  = number implies the count of commit from the head 
+ 
+ 
+ 
+ git branch  = to see the list of braches  
+ 
+ git brach <new branch name>   =willcreate new branch
+ 
+ git checkout <branch name>  = navigate to sub brach
+ 
+ git checkout -b <branch name>  = this will create and navigate the new branch
+ 
+ git merge <brachname>    = u need to be in main bracnh before merginf sub brbaches 
+ 
+ 
+ ***************************************************
+ 
+ 
+ 
+ 532  ssh-keygen
+  533  cd /home/suraj/.ssh/
+  534  ls
+  535  cat id_rsa.pub 
+  536  clear
+  537  cd -
+  538  ls
+  539  clera
+  540  clear
+  541  ssh -T git@github.com
+  542  git clone git@github.com:VinothBalakrish/class-ansible.git
+  543  ls
+  544  cd class-ansible/
+  545  ls
+  546  vi notes.md 
+  547  git add notes.md 
+  548  git commit -m "added hypen at top"
+  549  git push
+Vinoth Balakrishna
+11:34 AM
+git reset HEAD~1
+
+git reset HEAD@{1}
+git tag <name of thet tag>
+git tag -d <name of the tag>
+Vinoth Balakrishna
+11:36 AM
+git branch - to list the availble branched
+Vinoth Balakrishna
+11:43 AM
+git log --oneline main
+git logn --oneline  <which branch >
+Vinoth Balakrishna
+11:52 AM
+git checkout -b feature = > will create the branch and switch tothe branch
+Vinoth Balakrishna
+12:06 PM
+549  git push
+  550  history | tail -n 10
+  551  history | tail -n 20
+  552  cd ..
+  553  ls
+  554  rm class-ansible/
+  555  rm -rf class-ansible/
+  556  ls
+  557  cd ..
+  558  ls
+  559  cd aws-git/
+  560  git push
+  561  clera
+  562  clera
+  563  clera
+  564  clear
+  565  git remote -v
+  566  git remote add ssh git@github.com:VinothBalakrish/aws-git.git
+  567  git push -u ssh main
+  568  git push -u class1 main
+  569  cd ..
+  570  ls
+  571  git clone git@github.com:VinothBalakrish/aws-git.git a
+ 
+ 
