@@ -1,0 +1,18 @@
+532  ssh-keygen
+  533  cd /home/suraj/.ssh/
+  534  ls
+  535  cat id_rsa.pub 
+  536  clear
+  537  cd -
+  538  ls
+  539  clera
+  540  clear
+  541  ssh -T git@github.com
+  542  git clone git@github.com:VinothBalakrish/class-ansible.git
+  543  ls
+  544  cd class-ansible/
+  545  ls
+  546  vi notes.md 
+  547  git add notes.md 
+  548  git commit -m "added hypen at top"
+  549  git push
