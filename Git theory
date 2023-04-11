@@ -1,0 +1,8 @@
+Branching strategy 
+
+creating copy of the repository is called branching(virtual copies)
+
+we wil create seperate copies of our repositroy and different developers work on these copies and merged together as a single copy ath the time of release
+
+Relese branch = which contains all the previous releases in seperate branch whcih we can use in future to fix some defect or for other purposes
+
